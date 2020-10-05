@@ -1,4 +1,8 @@
-Required config
+**
+
+**Required config**
+
+**
 
 1. PHP >= 7.1.3
 2. BCMath PHP Extension
@@ -11,15 +15,16 @@ Required config
 9. XML PHP Extension
 
 
-Database Setup
-1. Change the db config in .env file
-2. Create a db in mysql
+**Database Setup**
 
-Creating and populating the tables
+ 1. Change the db config in .env file
+ 2.  Create a db in mysql
+
+**Creating and populating the tables**
 1. Run the following command at root dir
-    php artisan migrate:refresh --seed
+		php artisan migrate:refresh --seed
     
-End Points
+**End Points**
 1. Get all plans
     HTTP METHOD = GET
     End Point = /api/plans
@@ -50,7 +55,7 @@ End Points
         ]
         
 4. Save user plan
-    HTTP METHOD = POST
+	HTTP METHOD = POST
     End Point = user/<USER_ID>/subscription/save
     Body
     
